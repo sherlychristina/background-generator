@@ -1,0 +1,97 @@
+/*code template css*/
+
+
+/*start form login*/
+
+.login{
+      width:350px;
+      min-height:350px;
+      border:#CCC solid 1px;
+      background:#f9f9f9;
+      padding:20px;
+      margin:20px auto;
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+.login h1{
+        font-size:28px;
+        color:#000;
+        text-align:center;
+}
+
+
+/*end form login*/
+/*Template admin*/
+
+body {
+    margin-top: 150px;
+    background-color: #222;
+}
+
+#wrapper {
+    padding-left:0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        left: 225px;
+        bottom:0px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #222;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #000 !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+.navbar-inverse {
+    background-color: #333031;
+    border-color: #080808;
+}
+
+/*Template admin*/
